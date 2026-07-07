@@ -206,3 +206,59 @@ span{
     color: #757575;
     line-height: 28px;
 }
+
+/* My resume part */
+
+.resume-container{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.child-resume-container{
+    width: 1140px;
+    height: 500px;
+    margin-bottom: 130px;
+
+}
+
+.first-row{
+    display: flex;
+    gap: 25px;
+}
+
+.education{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.master{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.harvard{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.skill{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+
+#resume{
+    margin-top: 80px;
+    margin-bottom: 110px;
+}
