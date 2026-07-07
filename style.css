@@ -6,9 +6,11 @@
 }
 
 .header-container{
+    height: 837px;
     background-color: #FFF8F3;
     background-image: url("images/header_bg.png");
     background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 .mary{
@@ -25,6 +27,7 @@ span{
     /* background-color: burlywood; */
     margin: 0 auto;
     padding-top: 50px;
+    padding-bottom: 47px;
 }
 
 .nav-container nav{
@@ -70,4 +73,46 @@ span{
 .hardy-image{
     position: relative;
     left: 200px;
+}
+
+img{
+    width: 584px;
+    height: 676px;
+    object-fit: cover;
+}
+
+.button-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+#contact{
+    color: #FD6E0A;
+    padding: 18px 24px;
+    background: transparent;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+}
+
+.hi{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hardy-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.hardy-bio{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+
 }
