@@ -75,7 +75,7 @@ span{
     left: 200px;
 }
 
-img{
+#hardy-image{
     width: 584px;
     height: 676px;
     object-fit: cover;
@@ -169,3 +169,40 @@ img{
     line-height: 30px;
 }
 
+/* what I do section */
+
+.what-do-container{
+    display: flex;
+    justify-content: center;
+}
+
+.child-what-do-container{
+    width: 1140px;
+    margin-bottom: 50px;
+}
+
+.card-box{
+    display: flex;
+    gap: 24px;
+}
+
+.four-card-box{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.icon{
+    margin-bottom: 30px;
+}
+.card-title{
+    margin-bottom: 20px;
+    color: #181818;
+    font-size: 18px;
+    font-weight: 700;
+}
+.card-bio{
+    font-size: 15px;
+    color: #757575;
+    line-height: 28px;
+}
