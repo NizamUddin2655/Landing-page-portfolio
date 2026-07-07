@@ -256,9 +256,17 @@ span{
 }
 hr{
     border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
 }
 
 #resume{
     margin-top: 80px;
-    margin-bottom: 110px;
+}
+
+#btn-container{
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    margin-bottom: 130px;
 }
