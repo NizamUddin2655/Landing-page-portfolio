@@ -5,13 +5,24 @@
     box-sizing: border-box;
 }
 
-.header-container{
+/* .header-container{
     height: 837px;
     background-color: #FFF8F3;
     background-image: url("images/header_bg.png");
     background-repeat: no-repeat;
     background-position: right bottom;
+} */
+
+.header-container{
+    background-color: #FFF8F3;
+    background-image:
+        url("images/developer.png"),
+        url("images/header_bg.png");
+
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 30px center, right bottom;
 }
+
 
 .mary{
     font-size: 45px;
