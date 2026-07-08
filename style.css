@@ -90,6 +90,7 @@ span{
     width: 584px;
     height: 676px;
     object-fit: cover;
+    margin-bottom: -5px;
 }
 
 .button-container{
