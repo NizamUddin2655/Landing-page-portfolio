@@ -217,7 +217,7 @@ span{
 
 .child-resume-container{
     width: 1140px;
-    height: 500px;
+    /* height: 500px; */
     margin-bottom: 130px;
 
 }
@@ -260,13 +260,26 @@ hr{
 }
 
 #resume{
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    margin-bottom: 100px;
 }
 
 #btn-container{
     display: flex;
     justify-content: center;
 }
-#btn{
+
+/* My amazing work section style */
+
+.child-amazing-container{
+    margin: 0 auto;
     margin-bottom: 130px;
+    width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.racktangle-1{
+    margin-bottom: 15px;
 }
